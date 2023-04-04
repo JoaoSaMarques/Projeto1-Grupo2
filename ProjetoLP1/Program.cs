@@ -46,6 +46,16 @@ void PlayGame()
                 Console.WriteLine("Invalid button.");
                 break;
         }
+        //Increase the num of turns per case.
+        numTurns++;
+
+        //Which turn you are on
+        Console.WriteLine($"Turn {numTurns}:");
+        Console.WriteLine($"Lamp 1: {lamps[0]}");
+        Console.WriteLine($"Lamp 2: {lamps[1]}");
+        Console.WriteLine($"Lamp 3: {lamps[2]}");
+        //How many buttons have you pressed
+        Console.WriteLine($"Total button presses: {numTurns}");
     }
 }
 
