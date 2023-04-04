@@ -57,6 +57,16 @@ void PlayGame()
         //How many buttons have you pressed
         Console.WriteLine($"Total button presses: {numTurns}");
     }
+    //Win condition
+    if (lamps[0] == LampState.On && lamps[1] == LampState.On && lamps[2] == LampState.On)
+    {
+        Console.WriteLine($"Congratulations, you solved the puzzle in {numTurns} button presses!");
+    }
+    //Fail condition
+    else
+    {
+        Console.WriteLine("Sorry, you didn't solve the puzzle in time.");
+    }
 }
 
 namespace ProjetoLP1
