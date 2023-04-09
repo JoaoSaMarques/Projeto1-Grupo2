@@ -10,6 +10,10 @@ public enum LampState
 //Create a list for the states (all of them start off)
 LampState[] lamps = new LampState[3] { LampState.Off, LampState.Off, LampState.Off };
 
+//Asking for player's input
+Console.WriteLine ("Which button do you want to press?");
+Console.ReadLine();
+
 //Will be used to toggle the lamp states later on
 void ToggleLamps(int index1, int index2)
 {
