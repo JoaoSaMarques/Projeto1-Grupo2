@@ -12,6 +12,8 @@ namespace ProjetoLP1
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
             //Create a list of states (all of them start off)
             LampState[] lamps = new LampState[3] { LampState.Off, LampState.Off, LampState.Off};
 
@@ -44,18 +46,25 @@ namespace ProjetoLP1
             {
                 case 1:
                     ToggleLamp(0);
+                    //Just a simulation
+                    Console.WriteLine("The First Lamp turned On.");
                     break;
                 case 2:
-                    ToggleLamps(0,1);
+                    ToggleLamps(0, 1);
+                    //Just a simulation
+                    Console.WriteLine("The First Lamp turned Off, The Second Lamp turned On.");
                     break;
                 case 3:
                     ToggleLamps(1, 2);
+                    //Just a simulation
+                    Console.WriteLine("The Second Lamp turned Off, The Third Lamp turned On.");
                     break;
                 default:
                     Console.WriteLine("Invalid Button.");
                     break;
-
             }
+
+        }
 
         }
     }
