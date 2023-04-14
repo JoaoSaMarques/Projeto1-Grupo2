@@ -4,7 +4,7 @@ O conceito do trabalho é fazer um "jogo" onde existe três lâmpadas e três bu
 
 # Autores
 __________________________________________________________
-Trabalho feito por João Sá Marques (22209640) e "" para LP1
+Trabalho feito por João Sá Marques (22209640) e Guilherme Negrinho (22207383) para LP1
 __________________________________________________________
 #### *Erros encontrados e desafios*
 >Nunca ensinaram como reproduzir as lâmpadas ou os buttões para clicar.
