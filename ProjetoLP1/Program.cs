@@ -46,9 +46,8 @@ namespace ProjetoLP1
             {
                 /// Paragraph
                 Console.WriteLine();
-
                 /// Asks for user input
-                Console.WriteLine("Press a button - 1, 2 ou 3: ");
+                Console.WriteLine($"Press a button - 1, 2 ou 3: ");
                 int button = int.Parse(Console.ReadLine());
 
                 switch (button)
@@ -81,15 +80,25 @@ namespace ProjetoLP1
                 /// How many buttons have you pressed
                 Console.WriteLine($"Total button presses: {numTurns}");
 
-                /// Win Condition
-                if (lamps[0] == LampState.On && lamps[1] == LampState.On && lamps[2] == LampState.On)
+                /// Win Condition. All Lamps are On and the Turns is lower or equal to 6
+                if (lamps[0] == LampState.On && lamps[1] == LampState.On && lamps[2] == LampState.On && numTurns <= 6)
                 {
                     Console.WriteLine($"Congratulations, you solved the puzzle in {numTurns} button presses!");
+                    Console.WriteLine(); /// Paragraph
                     break;
                 }
+                else if (numTurns > 5) /// Since it starts counting from 0, the 6th turn, is equal to 5.
+                {
+                    /// Fail Condition (Exceeded 6 Turns)
+                    Console.WriteLine($"Sorry, you didn't solve the puzzle in time.");
+                    Console.WriteLine(); /// Paragraph
+                    break;
+                }
+                else
+                {
+                    continue;
+                }
             }
-            /// Fail Condition (Exceeded 6 turns)
-            Console.WriteLine("Sorry, you didn't solve the puzzle in time.");
         }
     }
 }
