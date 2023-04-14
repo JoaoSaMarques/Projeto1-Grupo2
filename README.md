@@ -4,7 +4,9 @@ O conceito do trabalho é fazer um "jogo" onde existe três lâmpadas e três bu
 
 # Autores
 __________________________________________________________
-Trabalho feito por João Sá Marques (22209640) e Guilherme Negrinho (22207383) para LP1
+Trabalho feito para LP1 por:
+* João Sá Marques (22209640)
+* Guilherme Negrinho (22207383)
 __________________________________________________________
 #### *Erros encontrados e desafios*
 >Tivemos difficuldades com o LampState e como organizar o código para que funcionasse corretamente.
