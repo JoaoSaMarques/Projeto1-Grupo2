@@ -11,7 +11,9 @@ namespace ProjetoLP1
 
     class Program
     {
+        /// <summary>
         /// Main
+        // <summary>
         static void Main(string[] args)
         {
             PlayGame();
