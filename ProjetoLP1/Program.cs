@@ -2,9 +2,7 @@ using System;
 
 namespace ProjetoLP1
 {
-    /// <summary>
     /// LampState
-    /// </summary>
     public enum LampState
     {
         On,
@@ -13,10 +11,7 @@ namespace ProjetoLP1
 
     class Program
     {
-        /// <summary>
         /// Main
-        /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             PlayGame();
@@ -24,27 +19,17 @@ namespace ProjetoLP1
 
         static void PlayGame()
         {
-            /// <summary>
             /// Create a list
-            /// </summary>
-            /// <value></value>
-            LampState[] lamps = new LampState[3] { LampState.Off, LampState.Off, LampState.Off};
+            LampState[] lamps = new LampState[3] { LampState.Off, LampState.Off, LampState.Off };
             int numTurns = 0;
 
-            /// <summary>
             /// Toggle Lamp States
-            /// </summary>
-            /// <param name="index1"></param>
-            /// <param name="index2"></param>
             void ToggleLamps(int index1, int index2)
             {
                 ToggleLamp(index1);
                 ToggleLamp(index2);
             }
-            /// <summary>
             /// Define the lamp toggles
-            /// </summary>
-            /// <param name="index"></param>
             void ToggleLamp(int index)
             {
                 if (lamps[index] == LampState.On)
@@ -59,75 +44,62 @@ namespace ProjetoLP1
 
             while (true)
             {
-                /// <summary>
                 /// Paragraph
-                /// </summary>
                 Console.WriteLine();
-                /// <summary>
                 /// Asks for user input
-                /// </summary>
-                Console.WriteLine("Press a button - 1, 2 ou 3: ");
+                Console.WriteLine($"Press a button - 1, 2 ou 3: ");
                 int button = int.Parse(Console.ReadLine());
 
                 switch (button)
                 {
                     case 1:
-                        ToggleLamp(0);
-                        /// <summary>
-                        /// Simulation on pressing 1
-                        /// </summary>
-                        Console.WriteLine("The First Lamp turned On.");
+                        ToggleLamp(0); /// Changes 1st Lamp
+                        Console.WriteLine(); /// Paragraph
                         break;
                     case 2:
-                        ToggleLamps(0, 1);
-                        /// <summary>
-                        /// Simulation on pressing 2
-                        /// </summary>
-                        Console.WriteLine("The First Lamp turned Off, The Second Lamp turned On.");
+                        ToggleLamps(0, 1); /// Changes 1st Lamp and 2nd Lamp
+                        Console.WriteLine(); /// Paragraph
                         break;
                     case 3:
-                        ToggleLamps(1, 2);
-                        /// <summary>
-                        /// Simulation on pressing 3
-                        /// </summary>
-                        Console.WriteLine("The Second Lamp turned Off, The Third Lamp turned On.");
+                        ToggleLamps(1, 2); /// Changes 2nd Lamp and 3rd Lamp
+                        Console.WriteLine(); /// Paragraph
                         break;
                     default:
                         Console.WriteLine("Invalid Button.");
                         break;
                 }
-                /// <summary>
                 /// Increase the number of turns you have done
-                /// </summary>
                 numTurns++;
 
-                /// <summary>
                 /// Which turn you are on
-                /// </summary>
-                /// <value></value>
-                Console.WriteLine($"Turn {numTurns}:");
+                Console.WriteLine($"Turn {numTurns}");
                 Console.WriteLine($"Lamp 1: {lamps[0]}");
                 Console.WriteLine($"Lamp 2: {lamps[1]}");
                 Console.WriteLine($"Lamp 3: {lamps[2]}");
-                /// <summary>
+
                 /// How many buttons have you pressed
-                /// </summary>
-                /// <value></value>
                 Console.WriteLine($"Total button presses: {numTurns}");
 
-                /// <summary>
-                /// Win Condition
-                /// </summary>
-                if (lamps[0] == LampState.On && lamps[1] == LampState.On && lamps[2] == LampState.On)
+                /// Win Condition. All Lamps are On and the Turns is lower or equal to 6
+                if (lamps[0] == LampState.On && lamps[1] == LampState.On && lamps[2] == LampState.On && numTurns <= 6)
                 {
                     Console.WriteLine($"Congratulations, you solved the puzzle in {numTurns} button presses!");
+                    Console.WriteLine(); /// Paragraph
                     break;
                 }
+                else if (numTurns > 5) /// Since it starts counting from 0, the 6th turn, is equal to 5.
+                {
+                    /// Fail Condition (Exceeded 6 Turns)
+                    Console.WriteLine($"Sorry, you didn't solve the puzzle in time.");
+                    Console.WriteLine(); /// Paragraph
+                    break;
+                }
+                else
+                {
+                    continue;
+                }
             }
-            /// <summary>
-            /// Fail Condition(Exceeded 6 turns)
-            /// </summary>
-            Console.WriteLine("Sorry, you didn't solve the puzzle in time.");
         }
     }
 }
+
