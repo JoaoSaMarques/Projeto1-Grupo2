@@ -59,10 +59,18 @@ namespace ProjetoLP1
                 /// Paragraph
                 /// </summary>
                 Console.WriteLine();
+
                 /// <summary>
-                /// Asks for user input
+                /// Player's Explanation
                 /// </summary>
-                Console.WriteLine($"Press a button - 1, 2 ou 3: ");
+                Console.WriteLine($"Welcome player to the Most Wonderful game of all the time!");
+                Console.WriteLine($"THE LIGHTS SWITCHES!");
+
+                /// <summary>
+                /// Asks for User Input
+                /// </summary>
+                Console.WriteLine($"Type a Lamp Number - 1, 2 or 3: ");
+
                 int button = int.Parse(Console.ReadLine());
 
                 switch (button)
