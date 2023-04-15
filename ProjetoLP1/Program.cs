@@ -135,7 +135,7 @@ namespace ProjetoLP1
                 }
                 /// <summary>
                 /// Fail Condition (Exceeded 6 Turns)
-                /// /// Since it starts counting from 0, the 6th turn, is equal to 5.
+                /// Since it starts counting from 0, the 6th turn, is equal to 5.
                 /// </summary>
                 else if (numTurns > 5)
                 {
