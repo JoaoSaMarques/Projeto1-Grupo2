@@ -2,12 +2,6 @@ using System;
 
 namespace ProjetoLP1
 {
-    /// LampState
-    public enum LampState
-    {
-        On,
-        Off
-    }
 
     class Program
     {
