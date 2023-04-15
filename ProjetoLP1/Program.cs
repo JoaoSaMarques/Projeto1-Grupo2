@@ -133,11 +133,7 @@ namespace ProjetoLP1
                     Console.WriteLine();
                     break;
                 }
-                /// <summary>
-                /// Fail Condition (Exceeded 6 Turns)
-                /// /// Since it starts counting from 0, the 6th turn, is equal to 5.
-                /// </summary>
-                else if (numTurns > 5)
+                else if (numTurns > 5) /// Since it starts counting from 0, the 6th turn, is equal to 5.
                 {
                     Console.WriteLine($"Sorry, you didn't solve the puzzle in time.");
                     Console.WriteLine();
