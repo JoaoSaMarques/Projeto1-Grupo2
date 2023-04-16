@@ -31,21 +31,25 @@ __________________________________________________________
 	- Introdução ao Jogador;
 	- Consentimento para Prosseguir.
 
-2. Implementação das Lampadas
-	- Enumeração Pública (On, OFF);
-	- Lista com as 3 Lâmpadas;
-	- Alteração do seu estado.
-
-3. Inicialização do Jogo
-	- Solicitação do Input do Jogador;
-	- Altera o Output Consoante o Input;
-	- Alteração do Estado das Lampadas para On and Off;
-	- Apresentação do Output;
-	- Contabilização dos Turnos Realizados.
+2. Inicialização do Jogo
+	* Implementação das Lampadas
+		- Enumeração Pública (On, OFF);
+		- Lista com as 3 Lâmpadas;
+		- Alteração do seu estado.
 	
-4. Condições de Vítoria e Perda
-	- Caso o Jogador ganhe antes ou até 6 rondas, condição de vitória;
-	- Caso o Jogador não conseguir ter todas as Lampadas ligada até 6 rondas, condições de Perda;
-	- Se ainda não tiver alcançado nenhuma desta condições, o Loop do Jogo prossegue.
+	* Solicitação do Input do Jogador;
+		- Altera o Output Consoante o Input;
+		- Alteração do Estado das Lampadas para On and Off;
+		- Apresentação do Output;
+		- Contabilização dos Turnos Realizados.
+		
+	* Condições de Vítoria e Perda
+		- Caso o Jogador ganhe antes ou até 6 rondas, condição de vitória;
+		- Caso o Jogador não conseguir ter todas as Lampadas ligada até 6 rondas, condições de Perda;
+		- Se ainda não tiver alcançado nenhuma desta condições, o Loop do Jogo prossegue.
 
 __________________________________________________________
+
+## Referências
+
+
