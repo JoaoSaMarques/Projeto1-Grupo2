@@ -30,6 +30,13 @@ __________________________________________________________
 1. Implementação das Lampadas
 			* Enumeração Pública (On, OFF);
 			* Lista com as 3 Lâmpadas;
-			* Alteração do seu estado;
-			*
+			* Alteração do seu estado.
+
+2. Explicação ao Jogador
+			* Introdução ao Jogador;
+			* Consentimento para Prosseguir.
+
+3. Inicialização do Jogo
+			* Solicitação do Input do Jogador;
+
 __________________________________________________________
