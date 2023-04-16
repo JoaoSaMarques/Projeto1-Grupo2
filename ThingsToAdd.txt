@@ -1,3 +1,0 @@
-Inputs
-
-Make new file for LampState
