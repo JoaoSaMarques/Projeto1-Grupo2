@@ -1,7 +1,7 @@
 # Puzzle das Lâmpadas
 ## Projeto 1 - Grupo 2
 
-O conceito do trabalho é fazer um Jogo onde existe três lâmpadas e três butões. O utilizador deve ligar as todas as lâmpadasno mínimo de turnos.
+O conceito do trabalho é fazer um Jogo onde existe três lâmpadas e três butões. O utilizador deve ligar todas as lâmpadas, no mínimo de turnos.
 
 # Autores
 __________________________________________________________
