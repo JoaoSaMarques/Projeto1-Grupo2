@@ -27,14 +27,14 @@ __________________________________________________________
 __________________________________________________________
 ## Arquitetura de Solução
 
-1. Implementação das Lampadas
+1. Explicação ao Jogador
+	- Introdução ao Jogador;
+	- Consentimento para Prosseguir.
+	- 
+2. Implementação das Lampadas
 	- Enumeração Pública (On, OFF);
 	- Lista com as 3 Lâmpadas;
 	- Alteração do seu estado.
-
-2. Explicação ao Jogador
-	- Introdução ao Jogador;
-	- Consentimento para Prosseguir.
 
 3. Inicialização do Jogo
 	- Solicitação do Input do Jogador;
@@ -46,5 +46,6 @@ __________________________________________________________
 4. Condições de Vítoria e Perda
 	- Caso o Jogador ganhe antes ou até 6 rondas, condição de vitória;
 	- Caso o Jogador não conseguir ter todas as Lampadas ligada até 6 rondas, condições de Perda;
+	- Se ainda não tiver alcançado nenhuma desta condições, o Loop do Jogo prossegue.
 
 __________________________________________________________
