@@ -13,6 +13,7 @@ Trabalho feito para LP1 por:
     * Alteração do Estado das Lâmpadas;
     * Implementação das condições de Vitória e Perda;
     * Contabilização dos Turnos Realizados.
+    * Fluxograma
     
   * Guilherme Negrinho (22207383)
     * Criação da Introdução de Jogo;
