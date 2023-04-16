@@ -14,6 +14,7 @@ namespace ProjetoLP1
             /// <summary>
             /// Player's Explanation. How the Games Work.
             // </summary>
+            Console.WriteLine();
             Console.WriteLine($"Welcome player, to the Most Wonderful Game of all the time!");
             Console.WriteLine($"THE LIGHTS SWITCHES!");
 
@@ -34,6 +35,14 @@ namespace ProjetoLP1
             /// <summary>
             /// Paragraph
             /// </summary>
+            Console.WriteLine();
+
+            /// <summary>
+            /// Reading keys Player's Input
+            /// </summary>
+            Console.WriteLine($"Press any key to start playing the game...");
+            Console.ReadKey();
+
             Console.WriteLine();
 
             PlayGame();
