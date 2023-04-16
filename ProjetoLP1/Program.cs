@@ -11,6 +11,31 @@ namespace ProjetoLP1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            /// <summary>
+            /// Player's Explanation. How the Games Work.
+            // </summary>
+            Console.WriteLine($"Welcome player, to the Most Wonderful Game of all the time!");
+            Console.WriteLine($"THE LIGHTS SWITCHES!");
+
+            Console.WriteLine();
+
+            Console.WriteLine($"All you need to do is within 6 Turns, have all the Lamps On.");
+            Console.WriteLine($"By typing a Lamp's Number, you will be able to change their states, from Off to On and so on.");
+                
+            Console.WriteLine();
+            Console.WriteLine($"But be careful! Some Lamps are tricky, we will be giving you a hint: ");
+
+            Console.WriteLine();
+
+            Console.WriteLine($"Lamp 1 changes only itself;\n" +
+                "Lamp 2 changes itself and Lamp 1 state;\n" +
+                "Lamp 3 changes itself and Lamp 2 state;\n");
+
+            /// <summary>
+            /// Paragraph
+            /// </summary>
+            Console.WriteLine();
+
             PlayGame();
         }
 
@@ -53,12 +78,6 @@ namespace ProjetoLP1
                 /// Paragraph
                 /// </summary>
                 Console.WriteLine();
-
-                /// <summary>
-                /// Player's Explanation
-                /// </summary>
-                Console.WriteLine($"Welcome player to the Most Wonderful game of all the time!");
-                Console.WriteLine($"THE LIGHTS SWITCHES!");
 
                 /// <summary>
                 /// Asks for User Input
