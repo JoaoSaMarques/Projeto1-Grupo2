@@ -20,6 +20,7 @@ Trabalho feito para LP1 por:
     * Aperfeiçoamento das condições de Vitória e Perda;
     * Limpeza do Código;
     * Polimento do Design;
+    * Auxílio no Fluxograma;
     * Acabamento do Markdown.
 __________________________________________________________
 #### *Erros encontrados e desafios*
