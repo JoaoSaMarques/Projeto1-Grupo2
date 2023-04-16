@@ -28,15 +28,23 @@ __________________________________________________________
 ## Arquitetura de Solução
 
 1. Implementação das Lampadas
-			* Enumeração Pública (On, OFF);
-			* Lista com as 3 Lâmpadas;
-			* Alteração do seu estado.
+	- Enumeração Pública (On, OFF);
+	- Lista com as 3 Lâmpadas;
+	- Alteração do seu estado.
 
 2. Explicação ao Jogador
-			* Introdução ao Jogador;
-			* Consentimento para Prosseguir.
+	- Introdução ao Jogador;
+	- Consentimento para Prosseguir.
 
 3. Inicialização do Jogo
-			- Solicitação do Input do Jogador;
+	- Solicitação do Input do Jogador;
+	- Altera o Output Consoante o Input;
+	- Alteração do Estado das Lampadas para On and Off;
+	- Apresentação do Output;
+	- Contabilização dos Turnos Realizados.
+	
+4. Condições de Vítoria e Perda
+	- Caso o Jogador ganhe antes ou até 6 rondas, condição de vitória;
+	- Caso o Jogador não conseguir ter todas as Lampadas ligada até 6 rondas, condições de Perda;
 
 __________________________________________________________
