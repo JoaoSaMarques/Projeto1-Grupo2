@@ -3,7 +3,7 @@
 
 O conceito do trabalho é fazer um Jogo onde existe três lâmpadas e três butões. O utilizador deve ligar todas as lâmpadas, no mínimo de turnos.
 
-# Autores
+## Autores
 __________________________________________________________
 Trabalho feito para LP1 por:
   * João Sá Marques (22209640)
@@ -25,8 +25,11 @@ __________________________________________________________
 >Tivemos difficuldades com o LampState e como organizar o código para que funcionasse corretamente.
 
 __________________________________________________________
-## Jogo
+## Arquitetura de Solução
 
-O jogo segue algumas regras.
-Um máximo de 6 turnos. E funcionar para linux e macOS também.
+1. Implementação das Lampadas
+			* Enumeração Pública (On, OFF);
+			* Lista com as 3 Lâmpadas;
+			* Alteração do seu estado;
+			*
 __________________________________________________________
