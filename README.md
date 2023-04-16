@@ -37,6 +37,6 @@ __________________________________________________________
 			* Consentimento para Prosseguir.
 
 3. Inicialização do Jogo
-			* Solicitação do Input do Jogador;
+			- Solicitação do Input do Jogador;
 
 __________________________________________________________
