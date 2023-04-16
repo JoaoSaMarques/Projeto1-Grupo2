@@ -54,4 +54,14 @@ __________________________________________________________
 ## Fluxograma
 ![FluxogramaLP1](FluxogramaLP1.png)
 
+__________________________________________________________
+## Referências
 
+* Ana Pinha
+	- Discussão de possíveis metódos para alteração do estado da Lâmapada.
+
+* Booleans
+	- https://www.w3schools.com/cs/cs_booleans.php
+
+* Enumerações com Switch
+	- https://www.w3schools.com/cs/cs_enums.php
