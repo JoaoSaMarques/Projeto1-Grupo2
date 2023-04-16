@@ -30,7 +30,7 @@ __________________________________________________________
 1. Explicação ao Jogador
 	- Introdução ao Jogador;
 	- Consentimento para Prosseguir.
-	- 
+
 2. Implementação das Lampadas
 	- Enumeração Pública (On, OFF);
 	- Lista com as 3 Lâmpadas;
