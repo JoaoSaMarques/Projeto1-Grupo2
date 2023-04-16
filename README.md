@@ -13,12 +13,14 @@ Trabalho feito para LP1 por:
     * Alteração do Estado das Lâmpadas;
     * Implementação das condições de Vitória e Perda;
     * Contabilização dos Turnos Realizados.
+    * Fluxograma
     
   * Guilherme Negrinho (22207383)
     * Criação da Introdução de Jogo;
     * Aperfeiçoamento das condições de Vitória e Perda;
     * Limpeza do Código;
     * Polimento do Design;
+    * Auxílio no Fluxograma;
     * Acabamento do Markdown.
 __________________________________________________________
 #### *Erros encontrados e desafios*
@@ -50,7 +52,17 @@ __________________________________________________________
 
 __________________________________________________________
 
-## Referências
+## Fluxograma
 ![FluxogramaLP1](FluxogramaLP1.png)
 
+__________________________________________________________
+## Referências
 
+* Ana Pinha
+	- Discussão de possíveis metódos para alteração do estado da Lâmpada.
+
+* Booleans
+	- https://www.w3schools.com/cs/cs_booleans.php
+
+* Enumerações com Switch
+	- https://www.w3schools.com/cs/cs_enums.php
