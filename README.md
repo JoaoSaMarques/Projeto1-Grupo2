@@ -58,7 +58,7 @@ __________________________________________________________
 ## Referências
 
 * Ana Pinha
-	- Discussão de possíveis metódos para alteração do estado da Lâmapada.
+	- Discussão de possíveis metódos para alteração do estado da Lâmpada.
 
 * Booleans
 	- https://www.w3schools.com/cs/cs_booleans.php
