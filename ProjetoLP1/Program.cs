@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 
 namespace ProjetoLP1
