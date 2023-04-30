@@ -41,7 +41,7 @@ namespace ProjetoLP1
             /// Reading keys Player's Input
             /// </summary>
             Console.WriteLine($"Press any key to start playing the game...");
-            Console.ReadKey();
+            Console.ReadLine();
 
             Console.WriteLine();
 
